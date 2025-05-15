@@ -15,8 +15,6 @@ router.get("/:id", getBookById);
 
 router.post("/", createBook);
 
-router.put("/:id", updateBook);
-
 router.patch("/:id", updateBook);
 
 router.delete("/:id", deleteBook);
